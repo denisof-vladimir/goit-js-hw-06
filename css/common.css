@@ -22,3 +22,8 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+classimg {
+  display: inline-block;
+  width: 25%;
+  height: 25%;
+}
