@@ -8,10 +8,10 @@ logForm.addEventListener('submit', function (event) {
     });
     console.log(formObject);
     if (!formObject.email || !formObject.password) {
-        alert("Заполни все поля!!!")
-    } else {
-        console.log(formObject);
-        // logForm.reset();
-     }
- logForm.reset();
+        alert("Заполни все поля!!!");
+        return;
+    } 
+     
+    logForm.reset();
 })
+    
